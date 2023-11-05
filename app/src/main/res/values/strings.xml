@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MobilRecyclerView</string>
+
+    <string name="mobil_creta">
+    The Creta is a compact SUV that combines style and performance. With its sleek design and a range of powerful engine options, it is a popular choice for those looking for a versatile and practical vehicle that does not compromise on aesthetics.
+</string>
+
+    <string name="mobil_ioniq5">
+    The Ioniq 5 is an electric crossover that gained recognition for its innovative design and eco-friendly features. It is a symbol of Hyundai is commitment to sustainability and cutting-edge technology, offering a spacious interior and impressive range on a single charge.
+</string>
+
+    <string name="mobil_ioniq6">
+    The Ioniq 6 is another addition to Hyundai electric vehicle lineup, emphasizing luxury and sustainability. It showcases a harmonious blend of high-end materials, advanced technology, and a commitment to minimizing its environmental footprint, making it an attractive choice for eco-conscious drivers.
+</string>
+
+    <string name="mobil_palisade">
+    The Palisade is a full-size SUV designed with a focus on passenger comfort and safety. Its expansive interior provides ample space for passengers and cargo, while its advanced safety features make it an ideal choice for family road trips and daily commutes.
+</string>
+
+    <string name="mobil_stargazer">
+    The Stargazer is a futuristic concept car, breaking away from traditional automotive design. It is a symbol of innovation, designed for space exploration and travel, equipped with state-of-the-art technology and a distinctive, otherworldly aesthetic.
+</string>
+
+    <string name="mobil_staria">
+    The Staria is a modern minivan designed to redefine the concept of family transportation. With a focus on comfort, cutting-edge technology, and exceptional versatility, it offers a dynamic and flexible interior configuration to meet various lifestyle needs. It is the ideal vehicle for those seeking a well-rounded family car.
+</string>
+
+
+</resources>
