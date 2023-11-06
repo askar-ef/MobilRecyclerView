@@ -22,7 +22,7 @@ class MyAdapter(private val mobilList: ArrayList<Mobil>) :
             binding.root.setOnClickListener {
                 val position = adapterPosition
                 if (position != RecyclerView.NO_POSITION) {
-                    mListener.onItemClick(position) // Use mListener here
+                    mListener.onItemClick(position)
                 }
             }
         }

@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var newRecyclerView: RecyclerView
     private lateinit var newArrayList: ArrayList<Mobil>
 
-    private val imageId = arrayOf(
+    private val image = arrayOf(
         R.drawable.creta,
         R.drawable.ioniq5,
         R.drawable.ioniq6,
@@ -39,10 +39,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
-        val view = binding.root
-        setContentView(view)
+        setContentView(binding.root)
 
-        newRecyclerView = binding.recyclerView // Use View Binding to access RecyclerView
+        newRecyclerView = binding.recyclerView
         newRecyclerView.layoutManager = LinearLayoutManager(this)
         newRecyclerView.setHasFixedSize(true)
 
@@ -51,8 +50,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getUserData() {
-        for (i in imageId.indices) {
-            val mobil = Mobil(imageId[i], heading[i])
+        for (i in image.indices) {
+            val mobil = Mobil(image[i], heading[i])
             newArrayList.add(mobil)
         }
 
