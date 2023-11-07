@@ -30,6 +30,7 @@ class MyAdapter(private val mobilList: ArrayList<Mobil>) :
         fun bind(currentItem: Mobil) {
             binding.titleImage.setImageResource(currentItem.titleImage)
             binding.tvHeading.text = currentItem.heading
+            binding.tvIntro.text = currentItem.intro.substringBefore(".") + "."
         }
     }
 

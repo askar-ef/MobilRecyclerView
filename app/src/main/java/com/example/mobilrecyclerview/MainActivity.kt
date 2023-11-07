@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         R.string.mobil_staria
     )
 
-    private lateinit var binding: ActivityMainBinding // View Binding instance
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun getUserData() {
         for (i in image.indices) {
-            val mobil = Mobil(image[i], heading[i])
+            val mobil = Mobil(image[i], heading[i], (getString(description[i])))
             newArrayList.add(mobil)
         }
 
